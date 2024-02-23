@@ -1,0 +1,24 @@
+{
+    "name": "maddlen/trig",
+    "autoload": {
+        "psr-4": {
+            "Maddlen\\BarcodeScanner\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Barcode Scanner",
+            "description": "Barcode Scanner addon"
+        },
+        "laravel": {
+            "providers": [
+                "Maddlen\\BarcodeScanner\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "statamic/cms": "^4.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
