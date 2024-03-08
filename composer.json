@@ -1,5 +1,7 @@
 {
     "name": "maddlen/trig",
+    "description": "Statamic addon that adds a barcode scanner fieldtype to Statamic CP",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Maddlen\\BarcodeScanner\\": "src"
