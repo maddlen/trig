@@ -10,7 +10,7 @@
                 <input
                     class="input-text-minimal p-0 bg-transparent leading-none"
                     :value="value"
-                    @input="update"
+                    @input="update($event.target.value)"
                 />
             </div>
         </div>
